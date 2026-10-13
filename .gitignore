@@ -1,0 +1,71 @@
+# =============================================================
+# India Semiconductor Growth Predictor — .gitignore
+# =============================================================
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+
+# ---- Virtual environments ----
+venv/
+env/
+.venv/
+ENV/
+.conda/
+
+# ---- Jupyter Notebooks ----
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ---- Environment / secrets ----
+.env
+.env.*
+*.pem
+*.key
+secrets.yaml
+secrets.json
+config_local.py
+
+# ---- Raw data: Excel / large binary files (CSVs are allowed) ----
+data/raw/*.xlsx
+data/raw/*.xls
+data/raw/*.xlsm
+
+# ---- Interim/processed generated files ----
+data/interim/*
+!data/interim/.gitkeep
+
+# ---- Model artefacts (large binary) ----
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# ---- IDE / editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Streamlit cache ----
+.streamlit/secrets.toml
+
+# ---- Test / coverage ----
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
