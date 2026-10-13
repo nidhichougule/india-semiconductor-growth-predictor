@@ -1,0 +1,10 @@
+state,facility_type_canonical,project_count,total_investment_crore,projects_with_known_investment,investment_coverage_pct
+Gujarat,Semiconductor Fab,1,91526.0,1,100.0
+Gujarat,ATMP/OSAT,4,33407.0,3,75.0
+Assam,ATMP/OSAT,1,27120.0,1,100.0
+Uttar Pradesh,DDIC / Display,1,3706.0,1,100.0
+Odisha,Compound Semiconductor Fab,1,2066.0,1,100.0
+Odisha,Advanced Packaging,1,1943.0,1,100.0
+Andhra Pradesh,Advanced Packaging,1,480.0,1,100.0
+Punjab,Discrete Semiconductor,1,117.0,1,100.0
+Gujarat,Compound Semiconductor Fab,1,0.0,0,0.0
