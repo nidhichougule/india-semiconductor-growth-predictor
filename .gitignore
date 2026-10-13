@@ -48,6 +48,8 @@ models/*.pkl
 models/*.joblib
 models/*.h5
 models/*.pt
+src/models/*.pkl
+src/models/*.joblib
 
 # ---- OS files ----
 .DS_Store

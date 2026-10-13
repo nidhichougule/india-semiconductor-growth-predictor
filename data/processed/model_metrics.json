@@ -1,0 +1,33 @@
+{
+  "n_training": 10,
+  "n_total_projects": 12,
+  "n_missing_investment": 2,
+  "best_model": "GradientBoosting",
+  "model_results": {
+    "RandomForest": {
+      "loo_mae_crore": 16670.0,
+      "loo_r2": -0.0708
+    },
+    "GradientBoosting": {
+      "loo_mae_crore": 13832.0,
+      "loo_r2": 0.0727
+    },
+    "Ridge": {
+      "loo_mae_crore": 17286.0,
+      "loo_r2": -0.0393
+    }
+  },
+  "feature_importances": {
+    "state_enc": 0.0146,
+    "facility_type_canonical_enc": 0.9022,
+    "approval_fiscal_year": 0.0832
+  },
+  "warning": "SMALL SAMPLE WARNING: n=10 is far below what is needed for reliable ML. LOO-CV metrics are optimistic estimates. This model is ILLUSTRATIVE only. Do not use for investment decisions.",
+  "features_used": [
+    "state_enc",
+    "facility_type_canonical_enc",
+    "approval_fiscal_year"
+  ],
+  "target": "investment_crore",
+  "unit": "INR crore"
+}
