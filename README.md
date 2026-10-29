@@ -40,7 +40,7 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 ```
 india-semiconductor-growth-predictor/
 │
-├── app.py                          # Streamlit dashboard (5 pages)
+├── app.py                          # Streamlit dashboard (7 interactive pages with 5 colorful themes)
 ├── requirements.txt                # Python dependencies
 │
 ├── data/
@@ -149,4 +149,4 @@ Code: MIT Licence
 
 ---
 
-*Author: Nidhi Chougule | MSc Data Science | October 2026*
+*Author: Nidhi Chougule 
